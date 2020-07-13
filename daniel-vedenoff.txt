@@ -1,0 +1,93 @@
+  
+https://codepen.io/DanielVedenoff/pen/yLeEPQa
+
+
+
+ 1. What is Semantic HTML? 
+	Answer:  Semantic HTML is  is HTML that gives meaning to to the elements.
+    2. What is HTML used for?
+	Answer:  HTML is used  for formating webpages, its like the foundation.
+    3. What is an attribute and where do we put it? 
+	Answer: An attribute is what provides information  in HTML,  we put it inside  the start tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	Answer: The h1 tag is used for the title on a page , it should only be used once.
+    5. Name two tags that have required attributes
+	Answer: <input> and <select>
+    6. What do we put in the head of our HTML document? 
+	Answer: Data about the HTML document,"Metadata"
+    7. What is an id? 
+	Answer: an id  is use to to specify a unique  id  for a HTML element.
+    8. What elements can I add an id to? 
+	Answer: all of them
+    9. How many times can I use the same id on a page? 
+	Answer: once
+    10. What is a class? 
+	Answer : class is used   to specity one or more class names for an element.
+    11. What elements can I add a class to? 
+	Answer: all of them
+    12. How many times can I use the same class on a page? 
+	Answer: there is no limit
+    13. How do I get my link to open in a new tab?
+	Answer: target=" _blank"
+    14. What is the alt attribute in the image tag used for? 
+	Answer: If the image is only for decoration.
+    15. How do I reference an id?
+	Answer: #
+    16. What is the difference between a section and a div?
+	Answer:  section  means the content is grouped, div is a block element ,  parent and child
+    17. What is CSS used for? 
+	Answer: CSS is used to give the HTML style.
+    18. How to we select an element? Example - every h2 on the page
+	Answer:  type h2 then {}.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	Answer:  id specifies one, class specifies one or more
+	Example   <h1 id= "word">  this is a word!<h1/>,  use only once,  
+		     <h1 class = "words">  <p class = "words" > , can be use multi.
+    20. How do we select classes in CSS?
+	Answer: type element  "." then class 
+    21. How do we select a p element with a single class of “human””?
+ 	Answer:  p.human
+    22. What is a parent child selector? When would this be useful? 
+	Answer: a child in in the content of the  parent, , when you want to add a division in a section.
+    23. How do you select all links within a div with the class of sidebar?
+	Answer: #sidebar a:link.
+    24. What is a pseudo selector?
+	Answer:  Pseudo selects  elememnet that sre is a specific state.
+    25. What do we use the change the spacing between lines?
+	Answer: line-height
+    26. What do we use to change the spacing between letters?
+	Answer: letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	Answer: text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+	Answer:  border: 1px dotted black; 
+    29. How do I select everything on the page? 
+	Answer: ctrl A
+    30. How do I write a comment in CSS?
+	Answer: /* */
+    31. How do I find out what file I am in, when I am using the command line? 
+	Answer: pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	Answer: ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	Answer: rm, because it is permanent.
+    34. Why should I use version control?  
+	Answer:  So  I can recall anything later.
+    35. How often should I commit to github?
+	Answer: after every add
+    36. What is the command we would use to push our repo up to github? 
+	Answer :  git push
+    37. Walk me through Lambda's git flow. 
+1. Fork the project you are going to work on
+2. Make sure your name is in front
+3. Add your TL  as Collaborator
+4. Clone
+5.Open git bash and  use "" cd""  for  the directory you want your clone to go to
+6.  ""git clone"" command
+7. use the  ""cd"" command  to  the new repo
+8. use  ""git ckeckout -b command""   with a  name after to create your branch
+9. WORK Lol
+10. when your done WORKING.  use ""git add"" command , you can always use ""git status"" command to know where your at,  then "" git commit -m""  witha message in quote marks  this is where you will leave a massage discribing  what you are about to push
+11. use ""git push -u origin""  with the branch name after
+12.pull request  , more information @           h    ttps://learn.lambdaschool.com/web1/module/rect59e95N6OSvoCd  
+13. Add reviewers and submit.	 
