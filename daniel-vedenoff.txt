@@ -91,3 +91,17 @@ https://codepen.io/DanielVedenoff/pen/yLeEPQa
 11. use ""git push -u origin""  with the branch name after
 12.pull request  , more information @           h    ttps://learn.lambdaschool.com/web1/module/rect59e95N6OSvoCd  
 13. Add reviewers and submit.	 
+   
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+ 	Answer: inline will only fill as much space as needed to display  tha data it is given, block wil fill up the intire space  it is given horizontally.
+    2. What happens when an element is positioned absolutely? 
+	Anwser: it means all the values are fixed,   this establishes a  new block  format
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?  
+	Answer: set  it by %    set the top and bottom,  leave height at auto
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	Answer:   block;,<div> <p> <section>,  inline; <span>, <img>, inline-block; ,<nav>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other  words, how do we make all elements respect the width we've given them?  
+	Answer: box model  is  layers , there is content, padding, border and margin,  they all have to get along, it might take some  math,  use a % of a px  to get what you need.
